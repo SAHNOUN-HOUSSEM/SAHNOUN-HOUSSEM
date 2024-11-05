@@ -23,7 +23,6 @@
  </p>
 <br />
 
-
 # 💫 About Me:
 
 I’m a dedicated full stack software engineer passionate about building efficient and innovative web applications. I’m currently studying Computer Science at INSAT, where I'm honing my skills in web development, problem-solving, and software engineering principles. My expertise includes working with a variety of frameworks and technologies, and I enjoy both frontend and backend development.
@@ -54,9 +53,6 @@ I’m a dedicated full stack software engineer passionate about building efficie
 <br/>
 <hr/>
 <br/>
-
-
-
 
 <p align="center">
   <a href="https://github.com/SAHNOUN-HOUSSEM">
