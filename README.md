@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="alsiam" />
  </a> -->
  <a href="https://linkedin.com/in/sahnoun-houssem" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="mahdi's linkedin"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Houssem's linkedin"/>
  </a>
  </p>
 <br />
@@ -41,7 +41,7 @@ I’m a dedicated full stack software engineer passionate about building efficie
 
 ## Top Open Source -
 
-[![Teamflow - Project and Task management](https://github-readme-stats.vercel.app/api/pin/?username=cap-mahdi&repo=Task-And-Project-Management&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/cap-mahdi/Task-And-Project-Management)
+[![Teamflow - Project and Task management](https://github-readme-stats.vercel.app/api/pin/?username=SAHNOUN-HOUSSEM&repo=Task-And-Project-Management&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/SAHNOUN-HOUSSEM/Task-And-Project-Management)
 [![SwiftShop - E-commerce Microservices](https://github-readme-stats.vercel.app/api/pin/?username=SAHNOUN-HOUSSEM&repo=SwiftShop-Microservices&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/SAHNOUN-HOUSSEM/SwiftShop-Microservices)
 [![Tunionnect - Social Media App](https://github-readme-stats.vercel.app/api/pin/?username=sahnoun-houssem&repo=social_network_app&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/SAHNOUN-HOUSSEM/social_network_app)
 [![InsatClub - Club Management Web Application](https://github-readme-stats.vercel.app/api/pin/?username=SAHNOUN-HOUSSEM&repo=InsatClub&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/SAHNOUN-HOUSSEM/InsatClub)
@@ -55,14 +55,25 @@ I’m a dedicated full stack software engineer passionate about building efficie
 <hr/>
 <br/>
 
-# 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=SAHNOUN-HOUSSEM&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=SAHNOUN-HOUSSEM&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=SAHNOUN-HOUSSEM&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
----
 
-[![](https://visitcount.itsvg.in/api?id=SAHNOUN-HOUSSEM&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="center">
+  <a href="https://github.com/SAHNOUN-HOUSSEM">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAHNOUN-HOUSSEM&theme=radical&border=7F3FBF&background=0D1117" alt="Saif's GitHub streak"/>
+  </a>
+</p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <a href="https://github.com/SAHNOUN-HOUSSEM">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SAHNOUN-HOUSSEM&theme=radical" alt="Houssem Sahnoun's GitHub Contribution"/>
+  </a>
+</p>
+
+<a> 
+    <a href="https://github.com/SAHNOUN-HOUSSEM"><img alt="Houssem Sahnoun's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=SAHNOUN-HOUSSEM&show_icons=true&count_private=true&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px" width="49.5%"/></a>
+  <a href="https://github.com/SAHNOUN-HOUSSEM"><img alt="Houssem Sahnoun's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=SAHNOUN-HOUSSEM&langs_count=8&layout=compact&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px" width="49.5%"/></a>
+  <br/>
+</a>
+
+![Houssem Sahnoun's Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAHNOUN-HOUSSEM&custom_title=Houssem's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true)
