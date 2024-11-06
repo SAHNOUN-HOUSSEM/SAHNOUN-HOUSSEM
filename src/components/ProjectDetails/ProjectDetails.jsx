@@ -185,7 +185,7 @@ const Button = styled.a`
   }
 `;
 
-const index = ({ openModal, setOpenModal }) => {
+const ProjectDetails = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
 
   const projectImage = cld
@@ -224,7 +224,7 @@ const index = ({ openModal, setOpenModal }) => {
               <Label>Members</Label>
               <Members>
                 {project?.member.map((member) => (
-                  <Member>
+                  <Member key={member.name}>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
                     <a
@@ -260,4 +260,4 @@ const index = ({ openModal, setOpenModal }) => {
   );
 };
 
-export default index;
+export default ProjectDetails;

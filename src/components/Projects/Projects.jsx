@@ -5,9 +5,6 @@ import {
   Title,
   Desc,
   CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
 } from "./ProjectsStyle";
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";

@@ -1,0 +1,33 @@
+export const experiences = [
+  {
+    id: 0,
+    img: "My_Portfolio/f9vgxfxepsljyaieo6yj",
+    role: "Intern Web Developer",
+    company: "CED Tunisia",
+    date: "July 2024 - August 2024",
+    desc: "Developed a versioning system for questionnaire results to optimize storage and track answer history. Implemented PDF signing, previewing, and annotation functionalities.",
+    skills: [".NET", "Angular", "SQL Server"],
+    doc: "My_Portfolio/f9vgxfxepsljyaieo6yj",
+  },
+  {
+    id: 1,
+    img: "My_Portfolio/go7ozredtzdi8uf3zpwu",
+    role: "Full Stack Freelancer",
+    company: "Freelance Projects",
+    date: "October 2023 - Now",
+    desc: "Collaborated with a freelance team to develop a complete platform for multiple companies to manage their products. Created a client-facing UI and an admin back-office for product management.",
+    skills: ["NestJS", "React", "MongoDB"],
+    doc: "My_Portfolio/go7ozredtzdi8uf3zpwu",
+  },
+  {
+    id: 2,
+    img: "My_Portfolio/fgwln2vx6fy3et71i4cv",
+    role: "Webmaster",
+    company: "Tunisian Aeroday 2024",
+    date: "January 2024 - April 2024",
+    desc: "Led the development and launch of the official platform for the Tunisian Aeroday 2024 event. Managed a team of developers and ensured project completion within deadlines.",
+    skills: ["HTML", "CSS", "JavaScript"],
+    doc: "My_Portfolio/fgwln2vx6fy3et71i4cv",
+    website: "https://www.aeroday.tn",
+  },
+];
