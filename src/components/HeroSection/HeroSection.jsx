@@ -1,4 +1,4 @@
-import HeroBgAnimation from "../HeroBgAnimation";
+import HeroBgAnimation from "../HeroBgAnimation/HeroBgAnimation";
 import {
   HeroContainer,
   HeroBg,
@@ -12,7 +12,6 @@ import {
   SubTitle,
   ResumeButton,
 } from "./HeroStyle";
-import HeroImg from "../../images/Houssem.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -47,7 +46,10 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={HeroImg} alt="hero-image" />
+            <Img
+              src="https://res.cloudinary.com/dwxnwtaly/image/upload/v1730890016/My_Portfolio/qxnlnjup5nbwvqxmqvex.jpg"
+              alt="hero-image"
+            />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

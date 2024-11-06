@@ -1,18 +1,18 @@
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { darkTheme } from "./utils/Themes.js";
-import Navbar from "./components/Navbar";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import HeroSection from "./components/HeroSection";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./components/HeroSection/HeroSection";
+import Skills from "./components/Skills/Skills";
+import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
+import Education from "./components/Education/Education";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
