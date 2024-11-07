@@ -131,7 +131,7 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-const Contact = () => {
+export const Contact = () => {
   //hooks
   const [open, setOpen] = useState(false);
   const form = useRef();
@@ -182,5 +182,3 @@ const Contact = () => {
     </Container>
   );
 };
-
-export default Contact;

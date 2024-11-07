@@ -132,7 +132,7 @@ const MobileMenu = styled.ul`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
   return (
@@ -195,5 +195,3 @@ const Navbar = () => {
     </Nav>
   );
 };
-
-export default Navbar;

@@ -91,7 +91,7 @@ const ItemWrapper = styled.div`
   gap: 8px;
 `;
 
-const ExperienceCard = ({ experience }) => {
+export const ExperienceCard = ({ experience }) => {
   const experienceImage = cld
     .image(experience.img)
     .resize(thumbnail().gravity(autoGravity()))
@@ -175,5 +175,3 @@ const ExperienceCard = ({ experience }) => {
     </VerticalTimelineElement>
   );
 };
-
-export default ExperienceCard;

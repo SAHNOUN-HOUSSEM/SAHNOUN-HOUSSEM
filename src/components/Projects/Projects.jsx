@@ -6,10 +6,10 @@ import {
   Desc,
   CardContainer,
 } from "./ProjectsStyle";
-import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
+import { ProjectCards } from "../Cards/ProjectCards";
 
-const Projects = ({ openModal, setOpenModal }) => {
+export const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="projects">
@@ -82,7 +82,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
-              <ProjectCard
+              <ProjectCards
                 key={project.id}
                 project={project}
                 openModal={openModal}
@@ -104,5 +104,3 @@ const Projects = ({ openModal, setOpenModal }) => {
     </Container>
   );
 };
-
-export default Projects;

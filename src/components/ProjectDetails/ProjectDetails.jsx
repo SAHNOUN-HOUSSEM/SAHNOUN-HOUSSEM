@@ -185,7 +185,7 @@ const Button = styled.a`
   }
 `;
 
-const ProjectDetails = ({ openModal, setOpenModal }) => {
+export const ProjectDetails = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
 
   const projectImage = cld
@@ -259,5 +259,3 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
     </Modal>
   );
 };
-
-export default ProjectDetails;
