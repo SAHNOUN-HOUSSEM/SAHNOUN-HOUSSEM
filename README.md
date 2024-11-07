@@ -14,12 +14,12 @@
 </p>
 
 <p align="center">
- <!-- <a href="https://alsiam.com" target="blank">
-  <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="alsiam" />
- </a> -->
- <a href="https://linkedin.com/in/sahnoun-houssem" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Houssem's linkedin"/>
- </a>
+  <b>Check out my portfolio:</b>
+</p>
+<p align="center">
+  <a href="https://sahnoun-houssem.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=render&logoColor=white" alt="Portfolio"/>
+  </a>
  </p>
 <br />
 
