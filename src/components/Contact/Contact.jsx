@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
-import { useState } from "react";
+import { addDoc, collection } from "firebase/firestore";
+import { useRef, useState } from "react";
+import { db } from "../../config";
+import { Loader } from "../Loader";
 
 const Container = styled.div`
   display: flex;
@@ -134,26 +135,31 @@ const ContactButton = styled.input`
 export const Contact = () => {
   //hooks
   const [open, setOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const formData = new FormData(form.current);
+    const contactRequest = Object.fromEntries(formData.entries());
+    // setIsLoading(true);
+
+    try {
+      setIsLoading(true);
+      const colRef = collection(db, "ContactRequests");
+      const docRef = await addDoc(colRef, contactRequest);
+      clearForm();
+    } catch (err) {
+      console.log(err.message);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const clearForm = () => {
+    form.current.reset();
+    setOpen(true);
   };
 
   return (
@@ -165,8 +171,8 @@ export const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Your Email" name="email" />
+          <ContactInput placeholder="Your Name" name="name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
@@ -179,6 +185,7 @@ export const Contact = () => {
           severity="success"
         />
       </Wrapper>
+      {isLoading && <Loader open={true} />}
     </Container>
   );
 };
