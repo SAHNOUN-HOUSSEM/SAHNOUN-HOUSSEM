@@ -15,7 +15,7 @@ import {
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
@@ -56,5 +56,3 @@ const HeroSection = () => {
     </div>
   );
 };
-
-export default HeroSection;

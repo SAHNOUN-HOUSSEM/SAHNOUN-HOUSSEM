@@ -4,15 +4,15 @@ import { darkTheme } from "./utils/Themes.js";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
-import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/HeroSection/HeroSection";
-import Skills from "./components/Skills/Skills";
-import Experience from "./components/Experience/Experience";
-import Projects from "./components/Projects/Projects";
-import Education from "./components/Education/Education";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
+import { Navbar } from "./components/Navbar/Navbar";
+import { HeroSection } from "./components/HeroSection/HeroSection";
+import { Skills } from "./components/Skills/Skills";
+import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
+import { Education } from "./components/Education/Education";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
+import { ProjectDetails } from "./components/ProjectDetails/ProjectDetails";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
-function App() {
+export const App = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal);
   return (
@@ -60,6 +60,4 @@ function App() {
       </Router>
     </ThemeProvider>
   );
-}
-
-export default App;
+};

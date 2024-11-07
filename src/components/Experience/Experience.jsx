@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { experiences } from "../../data/constants";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import ExperienceCard from "../cards/ExperienceCard";
+import { ExperienceCard } from "../Cards/ExperienceCard";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -49,7 +49,7 @@ const Desc = styled.div`
   }
 `;
 
-const Experience = () => {
+export const Experience = () => {
   return (
     <Container id="experience">
       <Wrapper>
@@ -75,5 +75,3 @@ const Experience = () => {
     </Container>
   );
 };
-
-export default Experience;

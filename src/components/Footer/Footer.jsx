@@ -80,8 +80,7 @@ const Copyright = styled.p`
   color: ${({ theme }) => theme.soft2};
   text-align: center;
 `;
-
-function Footer() {
+export const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -105,6 +104,4 @@ function Footer() {
       </FooterWrapper>
     </FooterContainer>
   );
-}
-
-export default Footer;
+};

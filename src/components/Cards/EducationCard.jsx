@@ -128,7 +128,7 @@ const Grade = styled.div`
   }
 `;
 
-const EducationCard = ({ education }) => {
+export const EducationCard = ({ education }) => {
   const educImage = cld
     .image(education.img)
     .resize(thumbnail().gravity(autoGravity()))
@@ -157,5 +157,3 @@ const EducationCard = ({ education }) => {
     </Card>
   );
 };
-
-export default EducationCard;

@@ -125,7 +125,7 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
-const ProjectCards = ({ project, setOpenModal }) => {
+export const ProjectCards = ({ project, setOpenModal }) => {
   const projectImage = cld
     .image(project.image)
     .resize(thumbnail().gravity(autoGravity()))
@@ -137,7 +137,7 @@ const ProjectCards = ({ project, setOpenModal }) => {
       <AdvancedImage cldImg={projectImage} style={ImageStyles} />
       <Tags>
         {project.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+          <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
@@ -147,12 +147,10 @@ const ProjectCards = ({ project, setOpenModal }) => {
       </Details>
       <Members>
         {project.member?.map((member) => (
-          <Avatar src={member.img} />
+          <Avatar key={member.id} src={member.img} />
         ))}
       </Members>
       {/* <Button>View Project</Button> */}
     </Card>
   );
 };
-
-export default ProjectCards;
