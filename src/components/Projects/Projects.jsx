@@ -92,7 +92,7 @@ export const Projects = ({ openModal, setOpenModal }) => {
           {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
-              <ProjectCard
+              <ProjectCards
                 key={project.id}
                 project={project}
                 openModal={openModal}
