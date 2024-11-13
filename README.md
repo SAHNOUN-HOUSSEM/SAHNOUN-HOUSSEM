@@ -54,11 +54,7 @@ I’m a dedicated full stack software engineer passionate about building efficie
 <hr/>
 <br/>
 
-<p align="center">
-  <a href="https://github.com/SAHNOUN-HOUSSEM">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAHNOUN-HOUSSEM&theme=radical&border=7F3FBF&background=0D1117" alt="Saif's GitHub streak"/>
-  </a>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/SAHNOUN-HOUSSEM">
