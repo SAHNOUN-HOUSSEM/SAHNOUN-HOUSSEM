@@ -13,12 +13,14 @@
   </samp>
 </p>
 
-<p align="center">
+<h2 align="center">
   <b>Check out my portfolio:</b>
-</p>
+</h2>
 <p align="center">
   <a href="https://sahnoun-houssem.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=render&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=render&logoColor=white" alt="Portfolio"
+            width=200
+            />
   </a>
  </p>
 <br />
