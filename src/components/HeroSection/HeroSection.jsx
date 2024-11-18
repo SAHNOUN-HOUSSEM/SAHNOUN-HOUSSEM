@@ -47,7 +47,7 @@ export const HeroSection = () => {
 
           <HeroRightContainer id="Right">
             <Img
-              src="https://res.cloudinary.com/dwxnwtaly/image/upload/v1730890016/My_Portfolio/qxnlnjup5nbwvqxmqvex.jpg"
+              src="https://res.cloudinary.com/dwxnwtaly/image/upload/v1731943631/My_Portfolio/q06wjcqwpa10l7f5bien.jpg"
               alt="hero-image"
             />
           </HeroRightContainer>

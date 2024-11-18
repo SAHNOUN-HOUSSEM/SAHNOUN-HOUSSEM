@@ -42,7 +42,7 @@ export const members = {
   },
   houssem: {
     name: "Houssem Sahnoun",
-    img: "https://res.cloudinary.com/dwxnwtaly/image/upload/v1730890016/My_Portfolio/qxnlnjup5nbwvqxmqvex.jpg",
+    img: "https://res.cloudinary.com/dwxnwtaly/image/upload/v1731943631/My_Portfolio/q06wjcqwpa10l7f5bien.jpg",
     linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
     github: "https://github.com/SAHNOUN-HOUSSEM",
   },
