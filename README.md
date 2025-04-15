@@ -13,12 +13,14 @@
   </samp>
 </p>
 
-<p align="center">
+<h2 align="center">
   <b>Check out my portfolio:</b>
-</p>
+</h2>
 <p align="center">
   <a href="https://sahnoun-houssem.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=render&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=render&logoColor=white" alt="Portfolio"
+            width=200
+            />
   </a>
  </p>
 <br />
@@ -54,11 +56,7 @@ I’m a dedicated full stack software engineer passionate about building efficie
 <hr/>
 <br/>
 
-<p align="center">
-  <a href="https://github.com/SAHNOUN-HOUSSEM">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAHNOUN-HOUSSEM&theme=radical&border=7F3FBF&background=0D1117" alt="Saif's GitHub streak"/>
-  </a>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/SAHNOUN-HOUSSEM">
