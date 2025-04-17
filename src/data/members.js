@@ -46,4 +46,10 @@ export const members = {
     linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
     github: "https://github.com/SAHNOUN-HOUSSEM",
   },
+  hnana: {
+    name: "Ahmed Hnana",
+    img: "https://res.cloudinary.com/dwxnwtaly/image/upload/v1744930784/My_Portfolio/hnana_gixka9.jpg",
+    linkedin: "https://www.linkedin.com/in/ahmed-hnana/",
+    github: "https://github.com/ahmeeeeedd",
+  },
 };

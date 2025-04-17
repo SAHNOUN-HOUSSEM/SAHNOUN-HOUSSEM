@@ -5,6 +5,9 @@ import {
   Title,
   Desc,
   CardContainer,
+  ToggleButtonGroup,
+  ToggleButton,
+  Divider,
 } from "./ProjectsStyle";
 import { projects } from "../../data/constants";
 import { ProjectCards } from "../Cards/ProjectCards";
@@ -20,7 +23,7 @@ export const Projects = ({ openModal, setOpenModal }) => {
           {/* From web apps to android */}
           {/* apps. Here are some of my projects. */}
         </Desc>
-        {/* <ToggleButtonGroup>
+        <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
               All
@@ -45,40 +48,16 @@ export const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
-            <ToggleButton
-              active
-              value="android app"
-              onClick={() => setToggle("android app")}
-            >
-              ANDROID APP'S
+          {toggle === "ai" ? (
+            <ToggleButton active value="ai" onClick={() => setToggle("ai")}>
+              AI/MACHINE LEARNING
             </ToggleButton>
           ) : (
-            <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
-            >
-              ANDROID APP'S
+            <ToggleButton value="ai" onClick={() => setToggle("ai")}>
+              AI/MACHINE LEARNING
             </ToggleButton>
           )}
-          <Divider />
-          {toggle === "machine learning" ? (
-            <ToggleButton
-              active
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
-            >
-              MACHINE LEARNING
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
-            >
-              MACHINE LEARNING
-            </ToggleButton>
-          )}
-        </ToggleButtonGroup> */}
+        </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
