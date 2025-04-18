@@ -22,6 +22,33 @@ export const projects = [
       "https://www.linkedin.com/posts/mahdi-chaabane_react-reactjs-symfony-activity-7072158461911871488-Rdk5",
   },
   {
+    id: 7,
+    title: "Bloggy: AI News Blog Generator",
+    date: "Jan 2024 - May 2024",
+    description:
+      "Designed and implemented a scalable system to automatically generate news blog articles by collecting and processing real-time data from YouTube livestreams, radio broadcasts, and online blogs. The system leverages a hybrid architecture combining batch and streaming processing with a Medallion Architecture (Bronze, Silver, Gold layers) to transform raw multimedia data into structured, AI-ready formats. Processed data is used to generate engaging blog content via fine-tuned large language models, which is then auto-published to social media platforms (Facebook, Twitter) to drive real-time engagement.",
+    image: "My_Portfolio/cc1014e7-bad8-468d-90ca-8b7c19567bab.png",
+    tags: [
+      "Hadoop HDFS",
+      "Kafka",
+      "Delta Lake",
+      "Spark",
+      "Elasticsearch",
+      "Whisper",
+      "FFmpeg",
+      "YOLO",
+      "GPT-4",
+      "TensorFlow",
+      "Neo4j",
+      "FAISS",
+      "Airflow",
+    ],
+    category: "ai",
+    member: [members.gdoura, members.chaaben, members.fkih, members.houssem],
+    // webapp: "https://sfaxi5.ai/demo",
+    // github: "https://github.com/SAHNOUN-HOUSSEM/Sfaxi5-AI-News-Generator",
+  },
+  {
     id: 6,
     title: "Teamflow.io",
     date: "May 2024",
@@ -42,6 +69,20 @@ export const projects = [
       "https://www.linkedin.com/feed/update/urn:li:activity:7207324474461859841",
   },
   {
+    id: 8,
+    title: "AGRIFY",
+    date: "Feb 2024 - Jun 2024",
+    description:
+      "AGRIFY is a smart agriculture solution that combines IoT sensors with AI to help garden owners optimize their environmental impact. The platform provides smart irrigation recommendations, crop suggestions, plant disease detection, and real-time weather insights. Using ESP32 microcontrollers with integrated sensors, the system measures soil moisture, temperature, pH, humidity, and key nutrients to deliver data-driven gardening advice that promotes sustainability.",
+    image: "My_Portfolio/1bacdf74-7775-4145-acc7-5f6a0cd6e195.png",
+    tags: ["IoT", "Machine Learning", "AI", "React", "Computer Vision"],
+    category: "ai",
+    github: "https://github.com/ahmeeeeedd/TRC2.0.git",
+    member: [members.houssem, members.chaaben, members.hnana],
+    webapp:
+      "https://drive.google.com/drive/folders/1MpJrcga5Vr4kyKI1uteJfU2t7epN66Ew?usp=drive_link",
+  },
+  {
     id: 2,
     title: "InsatClub",
     date: "Mar 2024 - May 2024",
@@ -55,7 +96,7 @@ export const projects = [
     webapp: "https://insatclub.insat.tn",
   },
   {
-    id: 2,
+    id: 34,
     title: "YelpCamp",
     date: "Apr 2023 - May 2023",
     description:

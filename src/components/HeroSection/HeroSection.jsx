@@ -40,7 +40,7 @@ export const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            <ResumeButton href={Bio.resume} target="_blank">
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
